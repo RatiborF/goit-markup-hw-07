@@ -1,0 +1,16 @@
+.hero-btn {
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--background-color);
+    background-color: var(--btn-color);
+    cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 4px;
+    border-color: transparent;
+    margin: auto;
+    min-width: 160px;
+}

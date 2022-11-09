@@ -1,22 +1,23 @@
-@import './base/common';
-@import './base/reset';
 
-@import './utils/container';
 @import './utils/variables';
 @import './utils/hidden';
 
-@import './components/header';
-@import './components/hero';
+@import './base/common';
+@import './base/reset';
+@import './base/container';
+
+
+@import './components/section';
+@import './components/pictures';
 @import './components/hero-btn';
-@import './components/benefits';
-@import './components/activities';
-@import './components/team';
-@import './components/clients';
-@import './components/portfolio';
-
-@import './components/footer';
+@import './components/subscribe-btn';
 @import './components/modal';
-@import './components/btn-submit';
+@import './layout/btn-submit';
 
-
-
+@import './layout/header';
+@import './layout/hero';
+@import './layout/benefits';
+@import './layout/activities';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/portfolio';
